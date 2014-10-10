@@ -1,7 +1,7 @@
 {
-  "name": "project-library-skeleton",
-  "version": "0.0.0",
-  "description": "KP Library Project Skeleton",
+  "name": "hr-core",
+  "version": "0.0.1",
+  "description": "HR-Core Domain",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,7 +12,9 @@
   "author": "author name",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^3.8.16"
+    "mongoose": "^3.8.16",
+    "lodash": "~2.4.1",
+    "moment": "~2.8.3"
   },
   "devDependencies": {
     "should": "^4.0.4",
